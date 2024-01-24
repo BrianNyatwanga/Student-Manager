@@ -24,8 +24,8 @@ public class Student {
 
     private String email;
     private LocalDate dob;
-    @Transient//Can be calculated
-    private Integer age;
+    @Transient//TRANSIENT REMOVES COLUMN FROM TABLE
+    private Integer age;//Can be calculated
     public Student(Long id,
                    String name,
                    String email,
@@ -44,6 +44,9 @@ public class Student {
         this.name = name;
         this.email = email;
         this.dob = dob;
+    }
+
+    public Student() {
     }
 
     public Long getId() {
