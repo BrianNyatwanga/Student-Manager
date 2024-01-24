@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-01-24T12:56:21.638+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/api/v1/student"
+}
