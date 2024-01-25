@@ -1,3 +1,174 @@
+PUT http://localhost:8080/api/v2/student/2?name=Priscilla&email=priscilla@gmail.com
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+PUT http://localhost:8080/api/v2/student/3?name=Brian
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-25T115130.500.json
+
+###
+
+PUT http://localhost:8080/api/v2/student/2?name=Brian
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+PUT http://localhost:8080/api/v2/student/1?name=Brian
+Content-Type: application/json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:8080/api/v2/student/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-25T110453.500.json
+
+###
+
+POST http://localhost:8080/api/v2/student
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yousuf",
+  "email": "yusufi.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yousuf",
+  "email": "yusufi.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-25T110259.404.json
+
+###
+
+DELETE http://localhost:8080/api/v2/student/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yusuf",
+  "email": "yusuf.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-24T201424.404.json
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yusuf",
+  "email": "yusuf.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-24T201320.404.json
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yusuf",
+  "email": "yusuf.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-24T201241.404.json
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yusuf",
+  "email": "yusuf.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-24T201220.404.json
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Yusuf",
+  "email": "yusuf.juma@gmail.com",
+  "dob": "1999-12-17"
+}
+
+<> 2024-01-24T201123.404.json
+
+###
+
 POST http://localhost:8080/api/v1/student
 Content-Type: application/json
 Content-Length: 79
