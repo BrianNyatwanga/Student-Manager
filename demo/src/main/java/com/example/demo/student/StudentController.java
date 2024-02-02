@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "api/v2/student")
+@CrossOrigin
 public class StudentController {
     private final StudentService studentService;
     @Autowired //DEPENDENCY INJECTION
